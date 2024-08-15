@@ -1,0 +1,2 @@
+# renovate
+Centralized renovate configs
