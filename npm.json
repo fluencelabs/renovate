@@ -1,0 +1,9 @@
+{
+  "respectLatest": false,
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["@fluencelabs/"],
+      "dependencyDashboardApproval": false
+    }
+  ]
+}
