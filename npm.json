@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "matchPackagePrefixes": ["@fluencelabs/"],
-      "enabled": true
+      "dependencyDashboardApproval": false
     }
   ]
 }

@@ -11,8 +11,7 @@
         "marine-rs-sdk",
         "marine-rs-sdk-test"
       ],
-      "semanticCommitScope": "deps",
-      "enabled": true
+      "dependencyDashboardApproval": false
     },
     {
       "matchManagers": ["cargo"],
@@ -20,17 +19,20 @@
         "avm-server",
         "air-interpreter-wasm"
       ],
-      "groupName": "avm"
+      "groupName": "avm",
+      "dependencyDashboardApproval": false
     },
     {
       "matchManagers": ["cargo"],
       "matchPackagePatterns": ["fluence-spell-dtos", "fluence-spell-distro"],
-      "groupName": "fluence-spell"
+      "groupName": "fluence-spell",
+      "dependencyDashboardApproval": false
     },
     {
       "matchManagers": ["cargo"],
       "matchPackagePatterns": ["marine-rs-sdk", "marine-rs-sdk-test"],
-      "groupName": "marine-rs-sdk"
+      "groupName": "marine-rs-sdk",
+      "dependencyDashboardApproval": false
     },
     {
       "matchManagers": ["cargo"],
@@ -40,11 +42,17 @@
     {
       "matchManagers": ["cargo"],
       "matchPackagePatterns": ["ccp-rpc-client", "ccp-shared", "cpu-utils"],
-      "groupName": "ccp"
+      "groupName": "ccp",
+      "dependencyDashboardApproval": false
     },
     {
       "matchManagers": ["cargo"],
-      "matchPackagePatterns": ["opentelemetry", "opentelemetry-otlp", "tracing-opentelemetry", "opentelemetry_sdk"],
+      "matchPackagePatterns": [
+        "opentelemetry",
+        "opentelemetry-otlp",
+        "tracing-opentelemetry",
+        "opentelemetry_sdk"
+      ],
       "groupName": "opentelemetry"
     }
   ]
